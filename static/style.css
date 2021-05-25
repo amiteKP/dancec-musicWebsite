@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+#logo img{
+  
+    height: 30px;   
+    padding: 5px;
+
+}
+
+#navbar{
+    background-color: burlywood;
+    padding: 16px 14px;
+    font-family: 'Pattaya', sans-serif;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 27px;
+}
+
+#navbar li a:hover{
+   font-weight: bold;
+   color: black;
+   background-color: red;
+}
+
+#introSection{
+height: 300px;
+color: white;
+background:  center/cover no-repeat url("/static/bg2.jpg");
+}
+
+#introSection div.small{
+    font-size: 45px;
+    color: #ff1e66;
+    margin-left: 800px;
+}
+   
+#introSection h1{
+    font-family: 'Kalam', cursive;
+    color: #fff80e;
+    text-align: center;
+    font-size: 52px;
+    padding-top: 59px;
+}
+
+#mission{
+    height: 300px;
+    background-color: #00804540;
+    }
+
+#mission h2{
+    padding-top: 10px;
+
+    color:#ff1e66 ;
+    text-align: center;
+    font-family: 'Pattaya', sans-serif;
+    }
+    .cards{
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 30%;
+        margin: 28px 21px;
+    height: 205px;
+    }
+
+    .cards h3{
+        text-align: center;
+        margin-top: 10px;
+        color: purple;
+        
+    }
+    .card-box{
+        display: flex;
+        align-items: center;
+       justify-content:space-between;
+    }
+
+    .card-img{
+        height: 144px;
+        padding: 0px 10px;
+
+    }
+
+    .card-img img{
+        height: inherit;
+        
+
+    }
+
+#sponsorSection{
+    height: 300px;
+background-color: rgb(211, 255, 211);
+}
+
+#sponsorSection h2{
+    padding-top: 10px;
+    color:#ff2f69;
+    text-align: center;
+    font-family: 'Pattaya', sans-serif;
+}
+
+#sponsors{
+    height: 110px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spi{
+    height: 80%;
+    margin: 55px;
+}
+    
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 40px;
+    color: aliceblue;
+background-color: rgb(83, 33, 129);
+}

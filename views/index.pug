@@ -1,0 +1,60 @@
+doctype html 
+html 
+  head 
+    style 
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul
+
+            div#logo 
+                img(src="/static/logodw.webp", alt="")
+             
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    section#introSection 
+        h1 Welcome to Kannu's नृत्य कला मंदिर
+        div.small --cool hub for every age
+    section#mission 
+        h2 our mission
+        div.cards
+            h3 master dance 
+            div.card-box
+              div.card-img
+                  img(src="/static/p1.webp", alt="")
+              div.card-content 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem commodi,
+                |tenetur, cumque corporis quod autem, maxime perferendis soluta aut adipisci corrupti animi?  
+        div.cards
+          h3 become perfectionist in music
+          div.card-box
+              div.card-img
+                  img(src="/static/p3.webp", alt="")
+              div.card-content 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem commodi,
+                |tenetur, cumque corporis quod autem, maxime perferendis soluta aut adipisci corrupti animi?  
+        div.cards
+          h3 create your passion
+          div.card-box
+              div.card-img
+                  img(src="/static/p2.webp", alt="")
+              div.card-content 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem commodi,
+                |tenetur, cumque corporis quod autem, maxime perferendis soluta aut adipisci corrupti animi?   
+    section#sponsorSection 
+        h2 Our Sponsors 
+        div#sponsors
+            img(src="/static/google.jpg", alt="google",class="spi")
+            img(src="/static/ibm.jpg", alt="ibm",class="spi")
+            img(src="/static/dell.jpg", alt="dell",class="spi")
+            img(src="/static/adobe.jpg", alt="adobe",class="spi")
+       
+       
+
+    footer#footer 
+       |copyright @ 2021 kannudmacademy.com-all rights reserved!       
+    script 
+      include ../static/script.js    
